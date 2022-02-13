@@ -1,0 +1,121 @@
+body{
+    background-color: snow;
+    display: flex;
+}
+#firstSide{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+}
+#secondSide{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px 12px 0px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+    height: 100vh;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 12px 12px 0px 0px;
+    -moz-border-radius: 12px 12px 0px 0px;
+    -ms-border-radius: 12px 12px 0px 0px;
+    -o-border-radius: 12px 12px 0px 0px;
+    overflow: hidden;
+    
+}
+#secondSide >div
+{
+    width: 100%;
+    height: 10%;
+    min-height: 50px;
+}
+#infoPerso{
+    display: flex;
+}
+#inputFile{
+    width: 30%;
+}
+#inputFile >input
+{
+    width: 0%;
+}
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+}
+#inputEmail{
+    width: 100%;
+    /*box-sizing: border-box;*/
+}
+#inputNom{
+    width: 100%;
+    /*box-sizing: border-box;*/
+}
+#inputPrenom{
+    /*box-sizing: border-box;*/
+    width: 100%;
+}
+
+#info > div 
+{
+    width: 100%;
+}
+
+#nom_prenom 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#firstSide > div
+{
+    width: 100%;
+}
+#firstSide > div >input
+{
+    width: 100%;
+}
+#firstSide >div img
+{
+    width: 80%;
+}
+#headSecondSide
+{
+    width: 100%;
+    
+    background-color: royalblue;
+    
+}
+#divDetails
+{
+    background-color: silver;
+    width: 40%;
+}
+#divMoreDetails{
+    background-color: silver;
+    width: 60%;
+
+}
+p{
+    text-align: center;
+    
+}
+#divCompetence{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.div-skils{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgb(241, 248, 248);
+    box-shadow: 5px 5px 39px 5px #A9A9A9;
+}
